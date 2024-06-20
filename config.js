@@ -12,7 +12,7 @@ global.location="Lahore,Pakistan."
 
 
 global.mongodb= process.env.MONGODB_URI || ""
-global.allowJids= process.env.ALLOW_JID || "null" 
+global.allowJids= process.env.ALLOW_JID || "true" 
 global.blockJids= process.env.BLOCK_JID || "null"
 global.DATABASE_URL = process.env.DATABASE_URL || ""
 
@@ -25,7 +25,7 @@ global.caption = process.env.CAPTION || global.caption || "ᴘᴏᴡᴇʀᴇᴅ 
 
 
 global.devs = "923184474176" // Developer Contact
-global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "null";
+global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "923436062975";
 global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "923436062975";
 
 
@@ -43,7 +43,7 @@ global.disablegroup = process.env.DISABLE_GROUPS || "false", // disable bot in g
 
 global.MsgsInLog = process.env.MSGS_IN_LOG|| "false" // "true"  to see messages , "log" to show logs , "false" to hide logs messages
 global.userImages= process.env.USER_IMAGES || "" // "text" // set Image/video urls here
-global.waPresence= process.env.WAPRESENCE ||  "available" ; // 'online' | 'available' | 'available' | 'online' | 'online'
+global.waPresence= process.env.WAPRESENCE ||  "online" ; // 'online' | 'available' | 'available' | 'online' | 'online'
 
 
 //========================= [ AUTO READ MSGS & CMDS ] =========================\\
